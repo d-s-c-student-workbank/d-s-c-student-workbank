@@ -1,0 +1,42 @@
+japanese:
+- japanese/**/*
+math:
+- math/**/*
+english:
+- english/**/*
+science:
+- science/**/*
+digitech:
+- digitech/**/*
+physics:
+- physics/**/*
+psychology:
+- psychology/**/*
+foodtech:
+-foodtech/**/*
+forensics:
+-forensics/**/*
+drama:
+-drama/**/*
+music:
+-music/**/*
+dance:
+-dance/**/*
+industrialdesign:
+-industrialdesign/**/*
+business:
+-business/**/*
+health:
+-health/**/*
+indonesian:
+-indonesian/**/*
+fashion:
+-fashion/**/*
+media:
+-media/**/*
+art:
+-art/**/*
+woodwork:
+-woodwork/**/*
+literature:
+-literature/**/*
