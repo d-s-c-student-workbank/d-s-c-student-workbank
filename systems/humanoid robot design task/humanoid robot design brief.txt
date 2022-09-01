@@ -1,0 +1,11 @@
+Who would use it:
+
+Elderly people
+
+What does it do:
+
+Take care of elderly people in their house and be ready to call 000 immediately if they get hurt
+
+What it costs:
+
+Paid for on elderly person death. price_of_robot + (2*days_served)
