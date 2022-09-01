@@ -6,6 +6,16 @@ What does it do:
 
 Take care of elderly people in their house and be ready to call 000 immediately if they get hurt
 
+Where would it work:
+
+Retirement homes / Individual Houses
+
+Why would we need it:
+
+To act as a 24/7 assistance robot for rich elderly people 
+
 What it costs:
 
-Paid for on elderly person death. price_of_robot + (2*days_served)
+Paid for on elderly person death. price_of_robot + ((days_served/7)*days_served)
+
+				  price_of_robot = time_taken_for_construction + money_used_on_production_of_robot
