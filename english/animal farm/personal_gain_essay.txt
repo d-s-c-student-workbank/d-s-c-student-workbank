@@ -1,2 +1,7 @@
 George Orwell's allegorical novella 'Animal Farm' shows a great example of personal gain outweighing the commitment to the greater good.
+
 Napoleon with his high authority in Animal Farm, slowly begins to break each of the commandments of animalism for his own benefit. He eventually begins to use torture devices such as whips to force the lower animals to work. An example is one of the commandments being "No animal shall kill any other animal." Napoleon killed multiple animals that confessed to insignificant crimes. The commandment was then changed to "No animal shall kill any other animal without reason."
+
+// Add more to body paragraph 1
+
+// Paragraph 2 will be about 
