@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="house building" company="" webLink="http://" view-date="2023-02-26" view-index="0" gantt-divider-location="371" resource-divider-location="300" version="3.2.3230" locale="en_AU">
+    <description>
+        <![CDATA[o.o]]>
+    </description>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd12" name="Cost" width="20" order="3"/>
+        <option id="taskLabelUp" value=""/>
+        <option id="taskLabelDown" value=""/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="206" order="0"/>
+        <field id="1" name="Default role" width="90" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="au.vic">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[New Year's Day]]>
+        </date>
+        <date year="" month="1" date="26" type="HOLIDAY">
+            <![CDATA[Australia Day]]>
+        </date>
+        <date year="" month="4" date="25" type="HOLIDAY">
+            <![CDATA[Anzac Day]]>
+        </date>
+        <date year="" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Christmas]]>
+        </date>
+        <date year="" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Boxing Day]]>
+        </date>
+        <date year="2021" month="3" date="8" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2021" month="4" date="2" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2021" month="4" date="3" type="HOLIDAY">
+            <![CDATA[Easter Saturday]]>
+        </date>
+        <date year="2021" month="4" date="4" type="HOLIDAY">
+            <![CDATA[Easter Sunday]]>
+        </date>
+        <date year="2021" month="4" date="5" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2021" month="6" date="14" type="HOLIDAY">
+            <![CDATA[Queen's Birthday]]>
+        </date>
+        <date year="2021" month="10" date="1" type="HOLIDAY">
+            <![CDATA[Grand Final Eve]]>
+        </date>
+        <date year="2021" month="11" date="2" type="HOLIDAY">
+            <![CDATA[Melbourne Cup Day]]>
+        </date>
+        <date year="2021" month="12" date="27" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+        <date year="2021" month="12" date="28" type="HOLIDAY">
+            <![CDATA[Boxing Day (in lieu)]]>
+        </date>
+        <date year="2020" month="1" date="27" type="HOLIDAY">
+            <![CDATA[Australia Day (in lieu)]]>
+        </date>
+        <date year="2020" month="3" date="9" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2020" month="4" date="11" type="HOLIDAY">
+            <![CDATA[Easter Saturday]]>
+        </date>
+        <date year="2020" month="4" date="12" type="HOLIDAY">
+            <![CDATA[Easter Sunday]]>
+        </date>
+        <date year="2020" month="4" date="13" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2020" month="6" date="8" type="HOLIDAY">
+            <![CDATA[Queen's Birthday]]>
+        </date>
+        <date year="2020" month="9" date="25" type="HOLIDAY">
+            <![CDATA[Grand Final Eve]]>
+        </date>
+        <date year="2020" month="11" date="3" type="HOLIDAY">
+            <![CDATA[Melbourne Cup Day]]>
+        </date>
+        <date year="2020" month="12" date="28" type="HOLIDAY">
+            <![CDATA[Boxing Day Holiday]]>
+        </date>
+        <date year="2019" month="1" date="28" type="HOLIDAY">
+            <![CDATA[Australia Day (in lieu)]]>
+        </date>
+        <date year="2019" month="3" date="11" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2019" month="4" date="19" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2019" month="4" date="20" type="HOLIDAY">
+            <![CDATA[Easter Saturday]]>
+        </date>
+        <date year="2019" month="4" date="21" type="HOLIDAY">
+            <![CDATA[Easter Sunday]]>
+        </date>
+        <date year="2019" month="4" date="22" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2019" month="6" date="10" type="HOLIDAY">
+            <![CDATA[Queen's Birthday]]>
+        </date>
+        <date year="2019" month="9" date="27" type="HOLIDAY">
+            <![CDATA[Grand Final Eve]]>
+        </date>
+        <date year="2019" month="11" date="5" type="HOLIDAY">
+            <![CDATA[Melbourne Cup Day]]>
+        </date>
+        <date year="2018" month="3" date="12" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="2018" month="3" date="30" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2018" month="3" date="31" type="HOLIDAY">
+            <![CDATA[Easter Saturday]]>
+        </date>
+        <date year="2018" month="4" date="1" type="HOLIDAY">
+            <![CDATA[Easter Sunday]]>
+        </date>
+        <date year="2018" month="4" date="2" type="HOLIDAY">
+            <![CDATA[Easter Monday]]>
+        </date>
+        <date year="2018" month="6" date="11" type="HOLIDAY">
+            <![CDATA[Queen's Birthday]]>
+        </date>
+        <date year="2018" month="9" date="28" type="HOLIDAY">
+            <![CDATA[Grand Final Eve]]>
+        </date>
+        <date year="2018" month="11" date="6" type="HOLIDAY">
+            <![CDATA[Melbourne Cup Day]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="12" name="The Project" color="#000000" meeting="false" start="2023-01-02" duration="70" complete="0" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Measuring" color="#8cb6ce" meeting="false" start="2023-01-02" duration="1" complete="0" thirdDate="2022-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="0" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="0" name="Clear site" color="#8cb6ce" meeting="false" start="2023-01-03" duration="15" complete="0" thirdDate="2022-11-29" thirdDate-constraint="0" expand="true">
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" name="Getting the house design" color="#8cb6ce" meeting="false" start="2023-01-24" duration="7" complete="0" thirdDate="2022-11-29" thirdDate-constraint="0" expand="true">
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1" name="Lay foundations" color="#8cb6ce" meeting="false" start="2023-02-03" duration="4" complete="0" thirdDate="2022-11-29" thirdDate-constraint="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <depend id="14" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Install footings" color="#8cb6ce" meeting="false" start="2023-02-03" duration="2" complete="0" thirdDate="2022-12-01" thirdDate-constraint="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Put up walls" color="#8cb6ce" meeting="false" start="2023-02-09" duration="24" complete="0" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+                <depend id="6" type="3" difference="0" hardness="Strong"/>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" name="Painting" color="#8cb6ce" meeting="false" start="2023-03-17" duration="3" complete="0" thirdDate="2022-12-01" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" name="Put on the roof" color="#8cb6ce" meeting="false" start="2023-03-15" duration="2" complete="0" thirdDate="2022-12-01" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" name="Install electrics" color="#8cb6ce" meeting="false" start="2023-03-13" duration="2" complete="0" thirdDate="2022-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="3" difference="0" hardness="Strong"/>
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" name="Install plumbing" color="#8cb6ce" meeting="false" start="2023-03-22" duration="4" complete="0" thirdDate="2022-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" name="Landscaping" color="#8cb6ce" meeting="false" start="2023-03-17" duration="14" complete="0" thirdDate="2022-12-01" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Moving in" color="#8cb6ce" meeting="false" start="2023-04-06" duration="3" complete="0" thirdDate="2022-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Finished" color="#8cb6ce" meeting="true" start="2023-04-11" duration="0" complete="0" thirdDate="2022-12-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Saul Goodman" function="6" contacts="" phone="">
+            <rate name="standard" value="300"/>
+        </resource>
+        <resource id="1" name="Bob the builder" function="1" contacts="" phone="">
+            <rate name="standard" value="125"/>
+        </resource>
+        <resource id="3" name="Euan" function="7" contacts="" phone=""/>
+        <resource id="4" name="Mario" function="2" contacts="" phone="">
+            <rate name="standard" value="44"/>
+        </resource>
+        <resource id="5" name="Pikachu" function="3" contacts="" phone="">
+            <rate name="standard" value="33.15"/>
+        </resource>
+        <resource id="6" name="Dieter" function="4" contacts="" phone="">
+            <rate name="standard" value="68.56"/>
+        </resource>
+        <resource id="7" name="minecraft creeper" function="5" contacts="" phone="">
+            <rate name="standard" value="33.33"/>
+        </resource>
+        <resource id="8" name="demoman tf2" function="8" contacts="" phone="">
+            <rate name="standard" value="33.86"/>
+        </resource>
+        <resource id="9" name="Linda" function="7" contacts="" phone=""/>
+        <resource id="10" name="Andrew" function="7" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="2" resource-id="0" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="6" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="6" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="1" responsible="true" load="50.0"/>
+        <allocation task-id="14" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="6" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="6" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="6" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="6" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="6" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="7" function="5" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="7" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="7" function="5" responsible="false" load="25.0"/>
+        <allocation task-id="0" resource-id="8" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="9" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="9" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="9" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="10" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="10" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="10" function="7" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="builder"/>
+        <role id="2" name="plumber"/>
+        <role id="3" name="electrician"/>
+        <role id="4" name="architect"/>
+        <role id="5" name="landscaper"/>
+        <role id="6" name="lawyer"/>
+        <role id="7" name="people who will live in the house"/>
+        <role id="8" name="demolitions expert"/>
+        <role id="9" name="decorator"/>
+        <role id="10" name="painter"/>
+    </roles>
+</project>
